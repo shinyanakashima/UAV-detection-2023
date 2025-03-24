@@ -1,12 +1,15 @@
 [
     {
+        "id": "20230921_output_tokachigawa_z25",
         "date": "2023/09/21",
         "title": "十勝川 (AI解析後)",
         "url": "https://raw.githubusercontent.com/shinyanakashima/ryuboku-detection-20230921/main/20230921_output_tokachigawa_z25/{z}/{x}/{y}.png",
         "lat": 42.699224,
-        "lng": 143.676931
+        "lng": 143.676931,
+        "detection": "data/20230921_tokachigawa.geojson"
     },
     {
+        "id": "20230921_tokachigawa_z25",
         "date": "2023/09/21",
         "title": "十勝川",
         "url": "https://raw.githubusercontent.com/shinyanakashima/ryuboku-detection-20230921/main/20230921_tokachigawa_z25/{z}/{x}/{y}.png",
@@ -14,6 +17,7 @@
         "lng": 143.676931
     },
     {
+        "id": "20230911_tokachigawa_z25",
         "date": "2023/09/11",
         "title": "十勝川",
         "url": "https://raw.githubusercontent.com/shinyanakashima/ryuboku-detection-20230911/main/20230911_tokachigawa_z25/{z}/{x}/{y}.png",
@@ -21,11 +25,30 @@
         "lng": 143.676931
     },
     {
+        "id": "20230911_output_tokachigawa_z25",
         "date": "2023/09/11",
         "title": "十勝川 (AI解析後)",
         "url": "https://raw.githubusercontent.com/shinyanakashima/ryuboku-detection-20230911/main/20230911_output_tokachigawa_z25/{z}/{x}/{y}.png",
         "lat": 42.699224,
+        "lng": 143.676931,
+        "detection": "data/20230911_tokachigawa.geojson"
+    },
+    {
+        "id": "20230727_tokachigawa_z25",
+        "date": "2023/07/27",
+        "title": "十勝川",
+        "url": "https://raw.githubusercontent.com/shinyanakashima/ryuboku-detection-20230727/main/20230727_tokachigawa_z25/{z}/{x}/{y}.png",
+        "lat": 42.699224,
         "lng": 143.676931
+    },
+    {
+        "id": "20230727_output_tokachigawa_z25",
+        "date": "2023/07/27",
+        "title": "十勝川 (AI解析後)",
+        "url": "https://raw.githubusercontent.com/shinyanakashima/ryuboku-detection-20230727/main/20230727_output_tokachigawa_z25/{z}/{x}/{y}.png",
+        "lat": 42.699224,
+        "lng": 143.676931,
+        "detection": "data/20230727_tokachigawa.geojson"
     },
     {
         "date": "2023/06/08",
@@ -42,17 +65,21 @@
         "lng": 143.41442654588928
     },
     {
+        "id": "20230601_tokachigawa_z22",
         "date": "2023/06/01",
         "title": "十勝川 zoom 22",
         "url": "https://raw.githubusercontent.com/shinyanakashima/ryuboku-detection-20230601/main/20230601_tokachigawa_z22/{z}/{x}/{y}.png",
         "lat": 42.699224,
-        "lng": 143.676931
+        "lng": 143.676931,
+        "detection": "data/20230601_tokachigawa.geojson"
     },
     {
+        "id": "20230601_tokachigawa_z25",
         "date": "2023/06/01",
         "title": "十勝川 zoom 25",
         "url": "https://raw.githubusercontent.com/shinyanakashima/ryuboku-detection-20230601/main/20230601_tokachigawa_z25/{z}/{x}/{y}.png",
         "lat": 42.699224,
-        "lng": 143.676931
+        "lng": 143.676931,
+        "detection": "data/20230601_tokachigawa.geojson"
     }
 ]
