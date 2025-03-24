@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey 2023</title>
+    <script src="https://unpkg.com/maplibre-gl/dist/maplibre-gl.js"></script>
+    <link href="https://unpkg.com/maplibre-gl/dist/maplibre-gl.css" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+        }
+
+        #map {
+            width: 100%;
+            height: 100vh;
+        }
+
+        .layer-select {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background: white;
+            padding: 10px;
+            z-index: 1000;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="map"></div>
+
+    <script>
+        // MapLibreのマップを初期化
+        const map = new maplibregl.Map({
+            container: 'map',
+            style: {
+                version: 8,
+                sources: {
+                    rtile: {
+                        type: 'raster',
+                        tiles: [
+                            'https://cyberjapandata.gsi.go.jp/xyz/std/{z}/{x}/{y}.png', // 地理院タイルのURL
+                        ],
+                        tileSize: 256,
+                        attribution:
+                            "地図の出典：<a href='https://www.gsi.go.jp/' target='_blank'>地理院タイル</a>",
+                        minzoom: 5,
+                        maxzoom: 18,
+                    }
+                },
+                layers: [
+                    {
+                        id: 'raster-tiles',
+                        type: 'raster',
+                        source: 'rtile',
+                        minzoom: 0,
+                        maxzoom: 17,
+                    },
+                ],
+            },
+            hash: true,
+            zoom: 16, // 初期ズーム
+            center: [143.67695764428424, 42.70246007170668], // 初期の地図中心
+            pitch: 60,
+            bearing: 0,
+            attributionControl: false,
+        });
+
+        map.on('load', function () {
+            // JSONファイルをfetchで読み込む
+            fetch('tiles.json')
+                .then(response => response.json())
+                .then(tileURLs => {
+
+                    const matchingTiles = tileURLs.filter(tile => tile.id === "20230601_output_tokachigawa_z25");
+
+                    // 一致するタイルが1つ以上見つかった場合
+                    if (matchingTiles.length > 0) {
+                        const tile = matchingTiles[0]; // 最初の一致するタイルを取り出す
+                        const layerId = `tileLayer${tile.id}`; // layerIdを直接tile.idで作成
+
+                        // タイルレイヤーを追加
+                        map.addSource(layerId, {
+                            type: 'raster',
+                            tiles: [tile.url],
+                            tileSize: 256
+                        });
+
+                        map.addLayer({
+                            id: layerId,
+                            type: 'raster',
+                            source: layerId,
+                            paint: {
+                                "raster-opacity": 0.8
+                            }
+                        });
+                    }
+
+                })
+                .catch(error => console.error('JSON読み込みエラー:', error));
+        });
+    </script>
+</body>
+
+</html>
