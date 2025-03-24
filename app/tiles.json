@@ -1,42 +1,58 @@
 [
     {
         "date": "2023/09/21",
-        "title": "十勝川",
-        "url": "https://raw.githubusercontent.com/shinyanakashima/ryuboku-detection-20230921/main/20230921_tokachigawa_z25/{z}/{x}/{y}.png"
+        "title": "十勝川 (AI解析後)",
+        "url": "https://raw.githubusercontent.com/shinyanakashima/ryuboku-detection-20230921/main/20230921_output_tokachigawa_z25/{z}/{x}/{y}.png",
+        "lat": 42.699224,
+        "lng": 143.676931
     },
     {
         "date": "2023/09/21",
-        "title": "十勝川 (AI解析後)",
-        "url": "https://raw.githubusercontent.com/shinyanakashima/ryuboku-detection-20230921/main/20230921_output_tokachigawa_z25/{z}/{x}/{y}.png"
+        "title": "十勝川",
+        "url": "https://raw.githubusercontent.com/shinyanakashima/ryuboku-detection-20230921/main/20230921_tokachigawa_z25/{z}/{x}/{y}.png",
+        "lat": 42.699224,
+        "lng": 143.676931
     },
     {
         "date": "2023/09/11",
         "title": "十勝川",
-        "url": "https://raw.githubusercontent.com/shinyanakashima/ryuboku-detection-20230911/main/20230911_tokachigawa_z25/{z}/{x}/{y}.png"
+        "url": "https://raw.githubusercontent.com/shinyanakashima/ryuboku-detection-20230911/main/20230911_tokachigawa_z25/{z}/{x}/{y}.png",
+        "lat": 42.699224,
+        "lng": 143.676931
     },
     {
         "date": "2023/09/11",
         "title": "十勝川 (AI解析後)",
-        "url": "https://raw.githubusercontent.com/shinyanakashima/ryuboku-detection-20230911/main/20230911_output_tokachigawa_z25/{z}/{x}/{y}.png"
+        "url": "https://raw.githubusercontent.com/shinyanakashima/ryuboku-detection-20230911/main/20230911_output_tokachigawa_z25/{z}/{x}/{y}.png",
+        "lat": 42.699224,
+        "lng": 143.676931
     },
     {
         "date": "2023/06/08",
         "title": "野塚川",
-        "url": "https://raw.githubusercontent.com/shinyanakashima/ryuboku-detection-20230608/main/20230608_noduka_z25/{z}/{x}/{y}.png"
+        "url": "https://raw.githubusercontent.com/shinyanakashima/ryuboku-detection-20230608/main/20230608_noduka_z25/{z}/{x}/{y}.png",
+        "lat": 42.34473458892944,
+        "lng": 143.34414896047534
     },
     {
         "date": "2023/06/08",
         "title": "歴舟川",
-        "url": "https://raw.githubusercontent.com/shinyanakashima/ryuboku-detection-20230608/main/20230608_rekifune_z25/{z}/{x}/{y}.png"
+        "url": "https://raw.githubusercontent.com/shinyanakashima/ryuboku-detection-20230608/main/20230608_rekifune_z25/{z}/{x}/{y}.png",
+        "lat": 42.45106838846449,
+        "lng": 143.41442654588928
     },
     {
         "date": "2023/06/01",
         "title": "十勝川 zoom 22",
-        "url": "https://raw.githubusercontent.com/shinyanakashima/ryuboku-detection-20230601/main/20230601_tokachigawa_z22/{z}/{x}/{y}.png"
+        "url": "https://raw.githubusercontent.com/shinyanakashima/ryuboku-detection-20230601/main/20230601_tokachigawa_z22/{z}/{x}/{y}.png",
+        "lat": 42.699224,
+        "lng": 143.676931
     },
     {
         "date": "2023/06/01",
         "title": "十勝川 zoom 25",
-        "url": "https://raw.githubusercontent.com/shinyanakashima/ryuboku-detection-20230601/main/20230601_tokachigawa_z25/{z}/{x}/{y}.png"
+        "url": "https://raw.githubusercontent.com/shinyanakashima/ryuboku-detection-20230601/main/20230601_tokachigawa_z25/{z}/{x}/{y}.png",
+        "lat": 42.699224,
+        "lng": 143.676931
     }
 ]
