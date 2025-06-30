@@ -52,17 +52,17 @@
     },
     {
         "id": "20230904-2_tokachigawa_z25",
-        "date": "2023/09/4",
+        "date": "2023/09/4(2回目)",
         "title": "十勝川",
-        "url": "https://raw.githubusercontent.com/shinyanakashima/UAV-detection-20230904-2/main/20230904-2_tokachigawa_z25/{z}/{x}/{y}.png",
+        "url": "https://raw.githubusercontent.com/shinyanakashima/UAV-detection-20230904/main/20230904-2_tokachigawa_z25/{z}/{x}/{y}.png",
         "lat": 42.699224,
         "lng": 143.676931
     },
     {
         "id": "20230904-2_output_tokachigawa_z25",
-        "date": "2023/09/4",
+        "date": "2023/09/4(2回目)",
         "title": "十勝川 (AI解析後)",
-        "url": "https://raw.githubusercontent.com/shinyanakashima/UAV-detection-20230904-2/main/20230904-2_output_tokachigawa_z25/{z}/{x}/{y}.png",
+        "url": "https://raw.githubusercontent.com/shinyanakashima/UAV-detection-20230904/main/20230904-2_output_tokachigawa_z25/{z}/{x}/{y}.png",
         "lat": 42.699224,
         "lng": 143.676931,
         "detection": "data/20230911_tokachigawa.geojson"
@@ -108,10 +108,10 @@
         "detection": "data/20230601_tokachigawa.geojson"
     },
     {
-        "id": "20230601_tokachigawa_z25",
+        "id": "20230601_tokachigawa",
         "date": "2023/06/01",
-        "title": "十勝川 zoom 25",
-        "url": "https://raw.githubusercontent.com/shinyanakashima/UAV-detection-20230601/main/20230601_tokachigawa_z25/{z}/{x}/{y}.png",
+        "title": "十勝川",
+        "url": "https://raw.githubusercontent.com/shinyanakashima/UAV-detection-20230601/main/20230601_tokachigawa/{z}/{x}/{y}.png",
         "lat": 42.699224,
         "lng": 143.676931,
         "detection": "data/20230601_tokachigawa.geojson"
