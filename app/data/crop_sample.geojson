@@ -1,0 +1,262 @@
+{
+  "type": "FeatureCollection",
+  "name": "CROP_DETECTION",
+  "crs": {"type": "name", "properties": {"name": "urn:ogc:def:crs:EPSG::4326"}},
+  "features": [
+    {
+      "type": "Feature",
+      "id": 0,
+      "properties": {
+        "fid": 0,
+        "category": "wheat",
+        "label": "小麦",
+        "score": 0.94,
+        "area_sqm": 108600,
+        "survey_date": "2024-06-20",
+        "notes": "生育順調。出穂期確認済み。"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[143.440, 42.878], [143.444, 42.878], [143.444, 42.881], [143.440, 42.881], [143.440, 42.878]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1,
+      "properties": {
+        "fid": 1,
+        "category": "potato",
+        "label": "じゃがいも",
+        "score": 0.88,
+        "area_sqm": 108600,
+        "survey_date": "2024-06-20",
+        "notes": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[143.4445, 42.878], [143.4485, 42.878], [143.4485, 42.881], [143.4445, 42.881], [143.4445, 42.878]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "properties": {
+        "fid": 2,
+        "category": "beet",
+        "label": "てんさい",
+        "score": 0.91,
+        "area_sqm": 108600,
+        "survey_date": "2024-06-20",
+        "notes": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[143.449, 42.878], [143.453, 42.878], [143.453, 42.881], [143.449, 42.881], [143.449, 42.878]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "properties": {
+        "fid": 3,
+        "category": "soybean",
+        "label": "大豆",
+        "score": 0.86,
+        "area_sqm": 108600,
+        "survey_date": "2024-06-20",
+        "notes": "播種後30日、初期生育良好。"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[143.440, 42.882], [143.444, 42.882], [143.444, 42.885], [143.440, 42.885], [143.440, 42.882]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4,
+      "properties": {
+        "fid": 4,
+        "category": "wheat",
+        "label": "小麦",
+        "score": 0.95,
+        "area_sqm": 108600,
+        "survey_date": "2024-06-20",
+        "notes": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[143.4445, 42.882], [143.4485, 42.882], [143.4485, 42.885], [143.4445, 42.885], [143.4445, 42.882]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5,
+      "properties": {
+        "fid": 5,
+        "category": "corn",
+        "label": "とうもろこし",
+        "score": 0.89,
+        "area_sqm": 108600,
+        "survey_date": "2024-06-20",
+        "notes": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[143.449, 42.882], [143.453, 42.882], [143.453, 42.885], [143.449, 42.885], [143.449, 42.882]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6,
+      "properties": {
+        "fid": 6,
+        "category": "rice",
+        "label": "水稲",
+        "score": 0.82,
+        "area_sqm": 54300,
+        "survey_date": "2024-07-15",
+        "notes": "水田。移植後45日。"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[143.440, 42.886], [143.442, 42.886], [143.442, 42.889], [143.440, 42.889], [143.440, 42.886]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7,
+      "properties": {
+        "fid": 7,
+        "category": "onion",
+        "label": "たまねぎ",
+        "score": 0.87,
+        "area_sqm": 108600,
+        "survey_date": "2024-07-15",
+        "notes": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[143.4445, 42.886], [143.4485, 42.886], [143.4485, 42.889], [143.4445, 42.889], [143.4445, 42.886]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8,
+      "properties": {
+        "fid": 8,
+        "category": "adzuki",
+        "label": "小豆",
+        "score": 0.79,
+        "area_sqm": 108600,
+        "survey_date": "2024-07-15",
+        "notes": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[143.449, 42.886], [143.453, 42.886], [143.453, 42.889], [143.449, 42.889], [143.449, 42.886]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9,
+      "properties": {
+        "fid": 9,
+        "category": "beet",
+        "label": "てんさい",
+        "score": 0.92,
+        "area_sqm": 162900,
+        "survey_date": "2024-07-15",
+        "notes": "大型圃場。葉部繁茂良好。"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[143.440, 42.890], [143.446, 42.890], [143.446, 42.893], [143.440, 42.893], [143.440, 42.890]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10,
+      "properties": {
+        "fid": 10,
+        "category": "potato",
+        "label": "じゃがいも",
+        "score": 0.85,
+        "area_sqm": 54300,
+        "survey_date": "2024-07-15",
+        "notes": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[143.4465, 42.890], [143.4485, 42.890], [143.4485, 42.893], [143.4465, 42.893], [143.4465, 42.890]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11,
+      "properties": {
+        "fid": 11,
+        "category": "wheat",
+        "label": "小麦",
+        "score": 0.93,
+        "area_sqm": 108600,
+        "survey_date": "2024-07-15",
+        "notes": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[143.449, 42.890], [143.453, 42.890], [143.453, 42.893], [143.449, 42.893], [143.449, 42.890]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12,
+      "properties": {
+        "fid": 12,
+        "category": "corn",
+        "label": "とうもろこし",
+        "score": 0.90,
+        "area_sqm": 108600,
+        "survey_date": "2024-07-15",
+        "notes": "草丈1.5m以上。登熟期。"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[143.440, 42.894], [143.444, 42.894], [143.444, 42.897], [143.440, 42.897], [143.440, 42.894]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 13,
+      "properties": {
+        "fid": 13,
+        "category": "soybean",
+        "label": "大豆",
+        "score": 0.84,
+        "area_sqm": 108600,
+        "survey_date": "2024-07-15",
+        "notes": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[143.4445, 42.894], [143.4485, 42.894], [143.4485, 42.897], [143.4445, 42.897], [143.4445, 42.894]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14,
+      "properties": {
+        "fid": 14,
+        "category": "wheat",
+        "label": "小麦",
+        "score": 0.91,
+        "area_sqm": 108600,
+        "survey_date": "2024-07-15",
+        "notes": ""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[143.449, 42.894], [143.453, 42.894], [143.453, 42.897], [143.449, 42.897], [143.449, 42.894]]]
+      }
+    }
+  ]
+}

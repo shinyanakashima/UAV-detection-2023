@@ -4,6 +4,47 @@
 ### Demo:
 https://shinyanakashima.github.io/UAV-detection-2023/
 
+## 作物識別アプリ (Crop Identification App)
+
+ドローン画像から作物を識別し、圃場ごとに可視化するWebGISアプリ。
+
+**デモページ:** [`app/crop_identification.html`](https://shinyanakashima.github.io/UAV-detection-2023/crop_identification.html)
+
+### 識別対象作物
+
+| カテゴリキー | 作物名 |
+| --- | --- |
+| `wheat` | 小麦 |
+| `potato` | じゃがいも |
+| `beet` | てんさい |
+| `soybean` | 大豆 |
+| `corn` | とうもろこし |
+| `rice` | 水稲 |
+| `onion` | たまねぎ |
+| `adzuki` | 小豆 |
+
+### 機能
+
+- 航空写真 / 地図タイル切替（国土地理院）
+- 作物種別ごとの色分け表示
+- 作物種別フィルター
+- 圃場クリックで識別信頼度・面積・調査日を表示
+- 集計パネル（圃場数・総面積・種別面積）
+
+### データ形式
+
+AI識別結果は GeoJSON 形式（`app/data/crop_sample.geojson`）で管理。
+各フィーチャーのプロパティ：
+
+| プロパティ | 説明 |
+| --- | --- |
+| `category` | 作物カテゴリキー |
+| `label` | 作物名（日本語） |
+| `score` | AI識別信頼度（0〜1） |
+| `area_sqm` | 圃場面積（㎡） |
+| `survey_date` | 調査日 |
+| `notes` | 備考 |
+
 ## 🗺️Tile URL
 
 | 調査日                       | 調査場所(河口付近) | タイルURL                                                                                                                           |
